@@ -1,0 +1,345 @@
+{
+  "status": "passed",
+  "date": "2026-10-18",
+  "questionsTested": 200,
+  "content": [
+    "Two levels of 100 questions",
+    "Exactly three endings with one keyed answer",
+    "All questions completed with wrong answers and retries",
+    "Scores, balloon rewards, finish and review",
+    "Real Excel workbook verified: 400 attempt rows and five sheets"
+  ],
+  "voice": {
+    "teacherOverride": "259",
+    "checks": [
+      "Wrong code rejected",
+      "259 unlocks on both activities",
+      "Disable locks controls again",
+      "Saved mute survives reload and landing-to-activity navigation",
+      "Projects use separate voice preferences",
+      "Enable restores Listen and question reading",
+      "Muted automatic reads and Listen do not increment listen counts",
+      "Central voice gate blocks speed-change restarts while muted"
+    ],
+    "limit": "Speech engine behavior simulated in runtime checks; audible device output not evaluated."
+  },
+  "activityViewports": [
+    {
+      "outside": [],
+      "overflow": [
+        {
+          "h": 0,
+          "id": "workspace",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "id": "notebook",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "id": "choices",
+          "w": 0
+        }
+      ],
+      "page": [
+        1366,
+        768
+      ],
+      "scale": "1",
+      "viewport": [
+        1366,
+        768
+      ]
+    },
+    {
+      "outside": [],
+      "overflow": [
+        {
+          "h": 0,
+          "id": "workspace",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "id": "notebook",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "id": "choices",
+          "w": 0
+        }
+      ],
+      "page": [
+        1280,
+        720
+      ],
+      "scale": "1",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "outside": [],
+      "overflow": [
+        {
+          "h": 0,
+          "id": "workspace",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "id": "notebook",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "id": "choices",
+          "w": 0
+        }
+      ],
+      "page": [
+        1024,
+        768
+      ],
+      "scale": "1",
+      "viewport": [
+        1024,
+        768
+      ]
+    },
+    {
+      "outside": [],
+      "overflow": [
+        {
+          "h": 0,
+          "id": "workspace",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "id": "notebook",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "id": "choices",
+          "w": 0
+        }
+      ],
+      "page": [
+        1024,
+        600
+      ],
+      "scale": "1",
+      "viewport": [
+        1024,
+        600
+      ]
+    },
+    {
+      "outside": [],
+      "overflow": [
+        {
+          "h": 0,
+          "id": "workspace",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "id": "notebook",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "id": "choices",
+          "w": 0
+        }
+      ],
+      "page": [
+        768,
+        1024
+      ],
+      "scale": "1",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "outside": [],
+      "overflow": [
+        {
+          "h": 0,
+          "id": "workspace",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "id": "notebook",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "id": "choices",
+          "w": 0
+        }
+      ],
+      "page": [
+        820,
+        1180
+      ],
+      "scale": "1",
+      "viewport": [
+        820,
+        1180
+      ]
+    },
+    {
+      "outside": [],
+      "overflow": [
+        {
+          "h": 0,
+          "id": "workspace",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "id": "notebook",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "id": "choices",
+          "w": 0
+        }
+      ],
+      "page": [
+        390,
+        844
+      ],
+      "scale": "1",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "outside": [],
+      "overflow": [
+        {
+          "h": 0,
+          "id": "workspace",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "id": "notebook",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "id": "choices",
+          "w": 0
+        }
+      ],
+      "page": [
+        844,
+        390
+      ],
+      "scale": "1",
+      "viewport": [
+        844,
+        390
+      ]
+    }
+  ],
+  "landingViewports": [
+    {
+      "outside": [],
+      "project": "Sentences Adventures 2",
+      "scroll": [
+        1366,
+        768
+      ],
+      "viewport": [
+        1366,
+        768
+      ]
+    },
+    {
+      "outside": [],
+      "project": "Sentences Adventures 2",
+      "scroll": [
+        1280,
+        720
+      ],
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "outside": [],
+      "project": "Sentences Adventures 2",
+      "scroll": [
+        1024,
+        600
+      ],
+      "viewport": [
+        1024,
+        600
+      ]
+    },
+    {
+      "outside": [],
+      "project": "Sentences Adventures 2",
+      "scroll": [
+        768,
+        1024
+      ],
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "outside": [],
+      "project": "Sentences Adventures 2",
+      "scroll": [
+        390,
+        844
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "outside": [],
+      "project": "Sentences Adventures 2",
+      "scroll": [
+        844,
+        390
+      ],
+      "viewport": [
+        844,
+        390
+      ]
+    }
+  ],
+  "teacherToolsNarrowScreen": "390 \u00d7 844: panel stays within screen, no internal scrolling",
+  "assets": {
+    "localReferencesChecked": 224,
+    "webpPictures": 100,
+    "allArtworkHashesVerified": true,
+    "parentFolderDependencies": true,
+    "parentFolderDependencyPurpose": "Return navigation to the shared landing pad; activity assets remain local."
+  },
+  "deployment": "Part of Sentence-Adventures-Collection; deploy the complete parent folder.",
+  "artworkRevisions": 2,
+  "collectionRevisionDate": "2026-10-19"
+}

@@ -1,0 +1,280 @@
+{
+  "status": "passed",
+  "date": "2026-10-19",
+  "delivery": "Unzipped folder containing both complete activities and a root index.html landing pad",
+  "navigation": [
+    "Landing pad opens Sentence Adventures profile/version chooser",
+    "First activity returns to landing pad",
+    "Landing pad opens Sentences Adventures 2 profile/version chooser",
+    "Second activity and its profile chooser return to landing pad"
+  ],
+  "localHtmlReferencesVerified": 59,
+  "layoutChecks": [
+    {
+      "cards": [
+        {
+          "copyOverflow": [
+            0,
+            0
+          ],
+          "overflow": [
+            0,
+            0
+          ]
+        },
+        {
+          "copyOverflow": [
+            0,
+            0
+          ],
+          "overflow": [
+            0,
+            0
+          ]
+        }
+      ],
+      "outside": [],
+      "page": [
+        1366,
+        768
+      ],
+      "viewport": [
+        1366,
+        768
+      ]
+    },
+    {
+      "cards": [
+        {
+          "copyOverflow": [
+            0,
+            0
+          ],
+          "overflow": [
+            0,
+            0
+          ]
+        },
+        {
+          "copyOverflow": [
+            0,
+            0
+          ],
+          "overflow": [
+            0,
+            0
+          ]
+        }
+      ],
+      "outside": [],
+      "page": [
+        1280,
+        720
+      ],
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "cards": [
+        {
+          "copyOverflow": [
+            0,
+            0
+          ],
+          "overflow": [
+            0,
+            0
+          ]
+        },
+        {
+          "copyOverflow": [
+            0,
+            0
+          ],
+          "overflow": [
+            0,
+            0
+          ]
+        }
+      ],
+      "outside": [],
+      "page": [
+        1024,
+        768
+      ],
+      "viewport": [
+        1024,
+        768
+      ]
+    },
+    {
+      "cards": [
+        {
+          "copyOverflow": [
+            0,
+            0
+          ],
+          "overflow": [
+            0,
+            0
+          ]
+        },
+        {
+          "copyOverflow": [
+            0,
+            0
+          ],
+          "overflow": [
+            0,
+            0
+          ]
+        }
+      ],
+      "outside": [],
+      "page": [
+        1024,
+        600
+      ],
+      "viewport": [
+        1024,
+        600
+      ]
+    },
+    {
+      "cards": [
+        {
+          "copyOverflow": [
+            0,
+            0
+          ],
+          "overflow": [
+            0,
+            0
+          ]
+        },
+        {
+          "copyOverflow": [
+            0,
+            0
+          ],
+          "overflow": [
+            0,
+            0
+          ]
+        }
+      ],
+      "outside": [],
+      "page": [
+        768,
+        1024
+      ],
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "cards": [
+        {
+          "copyOverflow": [
+            0,
+            0
+          ],
+          "overflow": [
+            0,
+            0
+          ]
+        },
+        {
+          "copyOverflow": [
+            0,
+            0
+          ],
+          "overflow": [
+            0,
+            0
+          ]
+        }
+      ],
+      "outside": [],
+      "page": [
+        820,
+        1180
+      ],
+      "viewport": [
+        820,
+        1180
+      ]
+    },
+    {
+      "cards": [
+        {
+          "copyOverflow": [
+            0,
+            0
+          ],
+          "overflow": [
+            0,
+            0
+          ]
+        },
+        {
+          "copyOverflow": [
+            0,
+            0
+          ],
+          "overflow": [
+            0,
+            0
+          ]
+        }
+      ],
+      "outside": [],
+      "page": [
+        390,
+        844
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "cards": [
+        {
+          "copyOverflow": [
+            0,
+            0
+          ],
+          "overflow": [
+            0,
+            0
+          ]
+        },
+        {
+          "copyOverflow": [
+            0,
+            0
+          ],
+          "overflow": [
+            0,
+            0
+          ]
+        }
+      ],
+      "outside": [],
+      "page": [
+        844,
+        390
+      ],
+      "viewport": [
+        844,
+        390
+      ]
+    }
+  ],
+  "existingBehavior": "Activity scripts are byte-for-byte identical to the previously verified editions, including separate progress, A/AA levels, Excel export and the 259 voice override.",
+  "zipFiles": 0
+}

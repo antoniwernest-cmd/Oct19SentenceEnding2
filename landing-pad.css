@@ -1,0 +1,38 @@
+*{box-sizing:border-box}
+html,body{width:100%;height:100%;margin:0;overflow:hidden}
+body{font-family:"Century Gothic","Trebuchet MS",Arial,sans-serif;color:#314e58;background:radial-gradient(ellipse at top left,#fff2dc,transparent 58%),#edf3ed}
+.landing-pad{height:100dvh;max-width:1320px;margin:auto;display:grid;grid-template-rows:auto minmax(0,1fr) auto;gap:clamp(14px,2.5vh,24px);padding:clamp(16px,3vw,36px)}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{display:flex;align-items:center;gap:10px;font-size:10px;font-weight:700;letter-spacing:1.4px}
+.brand img{width:30px;height:37px;object-fit:contain}
+.top-note{font-size:11px;color:#738274}
+main{display:grid;grid-template-rows:auto minmax(0,1fr);gap:clamp(14px,2.7vh,28px);min-height:0}
+.welcome{display:flex;align-items:flex-end;justify-content:space-between;gap:24px}
+.eyebrow{font-size:9px;font-weight:700;letter-spacing:1.7px;margin:0 0 9px;color:#718475}
+h1{font-size:clamp(32px,4vw,52px);line-height:1.05;letter-spacing:-1.8px;margin:0;font-weight:700}
+h1 span{color:#66836b}
+.intro{font-size:14px;line-height:1.5;margin:0 0 2px;color:#687d73}
+.adventures{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;min-height:0}
+.adventure{display:grid;grid-template-rows:minmax(0,1fr) auto;min-width:0;min-height:0;border-radius:22px;overflow:hidden;border:1px solid #d0ded2;background:#fffef8;box-shadow:0 10px 32px #3455460a}
+.scene{position:relative;min-height:0;background:#e0eadd;display:flex;align-items:center;justify-content:center}
+.scene img{display:block;width:100%;height:100%;min-height:0;object-fit:contain}
+.number{position:absolute;left:15px;top:13px;display:grid;place-items:center;width:30px;height:30px;background:#fffef5e8;border-radius:50%;color:#4e7259;font-size:11px;font-weight:700}
+.card-copy{padding:18px 20px;display:grid;gap:12px;min-height:0}
+.card-copy .eyebrow{font-size:8px;margin-bottom:7px}
+h2{font-size:clamp(19px,2vw,25px);line-height:1.12;letter-spacing:-.55px;margin:0 0 9px}
+.description{font-size:13px;line-height:1.45;margin:0;max-width:480px;color:#63776e}
+.card-bottom{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.details{font-size:10px;color:#6b7f71;white-space:nowrap;margin:0}
+.details span{padding:0 4px}
+.start{display:flex;justify-content:space-between;align-items:center;gap:20px;background:#5c7862;color:#fff;text-decoration:none;border-radius:10px;padding:12px 16px;font-size:12px;font-weight:700;min-height:42px;white-space:nowrap}
+.start:hover{background:#49684f}
+.start:focus-visible{outline:3px solid #bc7e27;outline-offset:3px}
+.second{border-color:#d1e2e4}.second .scene{background:#deecee}.second .number{color:#37737d}.second .start{background:#437b82}.second .start:hover{background:#30666d}.second .card-copy .eyebrow{color:#4a7d83}
+footer{display:flex;justify-content:space-between;align-items:center;gap:14px;font-size:10px;line-height:1.4;color:#778476}
+.dot{padding:0 6px}
+@media(max-width:900px){.landing-pad{padding:20px;gap:16px}.adventures{gap:16px}.card-copy{padding:15px;gap:12px}.card-bottom{align-items:flex-start;flex-direction:column;gap:10px}.start{width:100%}.intro{font-size:12px}.description{font-size:12px}}
+@media(max-width:600px){.landing-pad{padding:14px;gap:13px}.brand{font-size:8px;letter-spacing:1px;gap:7px}.brand img{width:25px;height:31px}.top-note{display:none}.welcome{display:block}.welcome .eyebrow{font-size:8px;margin-bottom:7px}h1{font-size:clamp(28px,7vw,37px);letter-spacing:-1px}.intro{font-size:12px;margin-top:10px}.intro br{display:none}.adventures{grid-template-columns:1fr;grid-template-rows:repeat(2,minmax(0,1fr));gap:13px}.adventure{grid-template-columns:minmax(0,.9fr) minmax(0,1.2fr);grid-template-rows:minmax(0,1fr);border-radius:17px}.scene{min-width:0}.number{left:8px;top:8px;width:24px;height:24px;font-size:9px}.card-copy{padding:13px 12px;display:flex;flex-direction:column;justify-content:space-between;gap:9px}h2{font-size:20px;margin-bottom:8px;letter-spacing:-.4px}.card-copy .eyebrow{font-size:6px;letter-spacing:1.1px;margin-bottom:6px}.description{font-size:11px;line-height:1.35}.card-bottom{gap:8px}.details{font-size:8px}.start{min-height:37px;padding:9px 10px;font-size:10px;gap:8px}footer{font-size:8px;gap:10px}footer>span{flex:1}.dot{padding:0 3px}}
+@media(max-height:650px) and (min-width:601px){.landing-pad{padding:13px 20px;gap:12px}.brand img{height:29px;width:24px}main{gap:13px}.welcome .eyebrow{font-size:8px;margin-bottom:6px}h1{font-size:35px}.intro{font-size:12px}.card-copy{padding:12px 15px;gap:10px}.description{font-size:11px}h2{font-size:21px;margin-bottom:6px}.card-copy .eyebrow{font-size:7px;margin-bottom:6px}.start{min-height:36px;padding:8px 12px;font-size:11px}.details{font-size:9px}.card-bottom{flex-direction:row;align-items:center}.start{width:auto}footer{font-size:9px}}
+@media(max-height:480px) and (min-width:601px){.landing-pad{padding:10px 16px;gap:10px}.brand img{height:25px;width:21px}.brand{font-size:8px}.top-note{font-size:9px}.welcome{align-items:center}h1{font-size:29px}.welcome .eyebrow{display:none}.intro{font-size:11px}main{gap:11px}.adventures{gap:13px}.adventure{grid-template-columns:minmax(0,.75fr) minmax(0,1.2fr);grid-template-rows:minmax(0,1fr);border-radius:16px}.card-copy{display:flex;flex-direction:column;justify-content:space-between;padding:11px;gap:8px}.card-bottom{flex-direction:column;align-items:stretch;gap:7px}.start{width:100%;min-height:33px;padding:7px 9px;font-size:10px}.description{font-size:10px;line-height:1.35}h2{font-size:19px}.number{width:23px;height:23px;left:7px;top:7px;font-size:9px}.card-copy .eyebrow{font-size:6px;letter-spacing:.9px}.details{font-size:8px}footer{font-size:8px}}
+@media(max-height:700px) and (max-width:600px){.landing-pad{gap:9px;padding:10px}.intro{margin-top:7px}.adventures{gap:9px}main{gap:10px}.card-copy{padding:10px;gap:6px}.card-copy .eyebrow{display:none}h2{font-size:18px;margin-bottom:5px}.description{font-size:10px}.start{min-height:32px;padding:7px 9px}footer{font-size:7px}}
+@media print{html,body{height:auto;overflow:visible}.landing-pad{height:185mm;padding:7mm}.adventures{grid-template-columns:1fr 1fr;grid-template-rows:minmax(0,1fr)}.adventure{grid-template-columns:1fr;grid-template-rows:minmax(0,1fr) auto;box-shadow:none}.start{background:#fff!important;color:#314e58;border:1px solid #9bad9d}.top-note{display:none}}

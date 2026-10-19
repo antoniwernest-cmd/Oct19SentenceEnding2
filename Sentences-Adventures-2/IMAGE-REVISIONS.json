@@ -1,0 +1,22 @@
+[
+  {
+    "sourceId": 4,
+    "generatedPath": "C:\\Users\\anton\\.codex\\generated_images\\01a151ea-43f9-7d70-961b-039a15ef6576\\exec-402543de-a26f-42d1-b8fb-1c016173fbb6.png",
+    "prompt": "Use case: precise-object-edit. Edit target: the supplied basketball illustration for a children's reading activity. Preserve the landscape 3:2 composition, polished warm 3D family animation style, Amina the Somali girl in aqua sports hijab holding the basketball at left, the coach, other teammate tying a shoe, school court, hoop, sunlight and colors. Replace ONLY the red-haired boy in a wheelchair at right with Leo, an East Asian boy aged 8 with short dark hair, navy sports vest and white T-shirt, standing in basketball shoes with both empty hands raised ready to catch Amina's chest pass, facing her. Remove the wheelchair completely and show his two feet on the court. The important reading clue is Leo's empty raised hands ready to catch. All hands and sports gear anatomically coherent. No text, labels, watermark or collage. Keep every other element as close as practical.",
+    "mode": "built-in image_gen",
+    "web": "assets/pictures/004-basketball.webp",
+    "webSha256": "e3b42e800e993480aaae70d8c219e344ee162d64ffd8ec979663acd06b67a118",
+    "cast": "Amina, a Somali girl wearing an aqua sports hijab; Leo, an East Asian boy with short dark hair standing ready to catch; Coach Kim.",
+    "scene": "Amina holds the basketball ready to chest pass to Leo, who stands facing her with empty hands raised. Another teammate ties a shoe."
+  },
+  {
+    "sourceId": 14,
+    "generatedPath": "C:\\Users\\anton\\.codex\\generated_images\\01a151ea-43f9-7d70-961b-039a15ef6576\\exec-efd24fc1-3e54-4e4e-b37b-8049e9d0fd29.png",
+    "prompt": "Use case: precise-object-edit. Edit target: the supplied basketball illustration for a children's reading activity. Preserve the landscape 3:2 composition, polished warm 3D family animation style, Sam the red-haired boy in his correctly assembled sports wheelchair reaching for the tall purple foam marker at right, Coach Kim, school court, hoop, sunlight, orange cone and the gate of tall foam markers blocking the lane. Replace ONLY the girl at left with Elena, a Latina girl aged 8 with brown eyes and a dark curly ponytail, wearing a lilac sports shirt, navy track pants and sneakers. Elena holds the basketball, standing and waiting beside the cone. Her hair is visible with a ponytail; no head covering. The important clue is the lane is still blocked by the foam markers until Sam moves the purple marker aside. Keep Sam's wheelchair and the visual reading clues intact. No text, labels, watermark or collage.",
+    "mode": "built-in image_gen",
+    "web": "assets/pictures/014-basketball.webp",
+    "webSha256": "43f67133c26496e6bbcfaf736e6f67619f32945787b60fc9446f88532c8cde92",
+    "cast": "Elena, a Latina girl with a dark curly ponytail and lilac shirt; Sam, a white boy with red hair using his sports wheelchair; Coach Kim.",
+    "scene": "Elena holds the basketball beside the cone while Sam reaches for a purple foam marker that still blocks the practice lane."
+  }
+]

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en" data-voice-project="sentence-adventures">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+ <meta name="theme-color" content="#e7eee7">
+ <title>Sentence Adventures</title>
+ <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="adventures.css?v=20261018c">
+ <script defer src="objects.js"></script><script defer src="data.js"></script><script defer src="date.js"></script><script defer src="core.js"></script><script defer src="excel.js"></script><script defer src="app.js"></script>
+<link rel="stylesheet" href="reading-voice.css"><link rel="stylesheet" href="teacher-voice.css"><script src="teacher-voice.js"></script><script src="reading-voice.js"></script></head>
+<body class="adventure-project"><div id="reading-voice-bar" role="region" aria-label="Voice controls"><label for="reading-voice-speed">Voice speed <select id="reading-voice-speed"><option value="0.5">Very slow</option><option value="0.65">Slower</option><option value="0.82" selected>Steady</option><option value="1">Faster</option><option value="1.15">Fast</option><option value="1.3">Very fast</option></select></label><button id="reading-voice-stop" type="button" aria-label="Stop reading aloud">■ Stop</button><span id="reading-voice-status" role="status" aria-live="polite"></span></div><div id="reading-screen"><div id="reading-page">
+ <div id="storage-notice" class="notice" hidden role="status"></div>
+ <main id="landing" class="landing"><a class="collection-back" href="../index.html">← Landing pad</a>
+  <section class="welcome">
+   <div class="brand"><img src="assets/magic-cat.png" alt=""><span>MYSTIC &amp; MAGIC CAT</span></div>
+   <div class="eyebrow">A little reading magic, every day.</div>
+   <h1>Sentence<br><span>Adventures</span><span class="sparkle" aria-hidden="true">✦</span></h1>
+   <p class="intro">Read the beginning.<br>Choose the ending that makes sense.</p>
+   <section class="start-versions" aria-label="Choose a reading version"><h2>Choose your version</h2><div id="start-levels"></div><p>A has shorter sentences. AA has more detail and closer choices.</p></section>
+   <div class="adventure-preview"><span>100 per version</span><span>3 choices</span><span>A &amp; AA · Grades 2–3</span></div>
+   <button type="button" class="text-button teacher-voice-open">Teacher voice</button>
+   <button id="export-all" class="text-button">↓ Excel assessment · all objects</button>
+   <small class="local-note">Progress stays in this browser. No name or ID needed.</small>
+  </section>
+  <section class="object-picker" aria-labelledby="choose-title">
+   <div class="picker-heading"><div><div class="eyebrow">YOUR READING SPOT</div><h2 id="choose-title">Choose your school supply</h2></div><span class="pill">20 choices</span></div>
+   <p>Use the same picture each time. Your teacher can match it to your Excel assessment.</p>
+   <div id="object-grid" class="object-grid"></div>
+   <div class="picker-foot"><span>◉ Tap your picture to begin</span><span>Sentence endings</span></div>
+  </section>
+ </main>
+ <main id="activity" class="activity" data-finished="false" data-view="question" hidden>
+  <div class="activity-top">
+   <header class="app-header">
+    <button id="home" class="app-brand" title="Choose a school supply"><img src="assets/magic-cat.png" alt=""><span>Sentence Adventures</span></button>
+    <div class="header-actions"><button type="button" class="outline teacher-voice-open">Teacher voice</button>
+     <button id="object-badge" class="object-badge" title="Change school supply"></button>
+     <details id="teacher-tools" class="teacher-tools"><summary>Teacher tools</summary><div class="teacher-panel">
+      <button id="export-current" class="outline">↓ Excel assessment</button>
+      <div class="teacher-rating" aria-label="Teacher support rating"><span>Teacher:</span><button data-rating="Independent">✓ Independent</button><button data-rating="With help">◐ With help</button><button data-rating="Practising">↻ Practising</button></div>
+      <p id="progress" class="teacher-progress"></p><p class="teacher-legend">A and AA each have 100 sentence beginnings with three realistic endings each. One ending fits all the clues. Grade 2–3 reading, with 100 unique illustrations shared across the two versions. Every first correct answer earns one point and lifts the balloon. Twenty points start a fresh flight while the score keeps growing. Each choice, retry, hint and listen is recorded in Excel.</p>
+      <button id="reset-all" class="text-button">Reset this object’s progress</button>
+     </div></details>
+    </div>
+   </header>
+   <div class="activity-toolbar"><a class="pill" href="../index.html">← Landing pad</a><span id="adventure-score" class="pill" aria-live="polite">Score 0 / 100</span><div class="levels" aria-label="Choose a level"><div><div id="levels-one"></div></div><div><div id="levels-two"></div></div></div></div>
+  </div>
+  <div class="adventure-view-tools" role="group" aria-label="Choose picture or question"><button id="show-scene" type="button" aria-pressed="false">Picture</button><button id="show-question" type="button" aria-pressed="true">Read &amp; answer →</button></div>
+  <section class="work-card">
+   <aside class="picture-side">
+    <div class="topic-line"><span id="theme">Picture sentence</span><span id="item-count"></span></div>
+    <div id="picture-frame" class="picture-frame"><img id="activity-picture" class="activity-picture" alt=""><div id="picture-covers" aria-hidden="true"></div></div>
+    <span class="picture-caption">One picture for every adventure.</span>
+    <div class="listening-tools"><button id="listen" class="listen">◖)) Listen</button><button id="stop" class="stop" aria-label="Stop speaking">■ Stop</button><label class="voice-speed">Voice speed <select id="speed"><option value="0.65">Slower</option><option value="0.82" selected>Steady</option><option value="1">Faster</option></select></label></div>
+    <p id="voice-note" class="voice-note" role="status"></p>
+   </aside>
+   <div class="workspace">
+    <div class="task-heading"><div><span id="task-eyebrow" class="eyebrow"></span><h2>Finish the sentence</h2></div><span id="piece-count" class="pill"></span></div>
+    <section id="notebook" class="notebook endings-notebook" aria-label="Your notebook">
+     <div class="notebook-heading"><div><span class="notebook-caption">MY NOTEBOOK · TODAY’S DATE</span><span class="notebook-date-actions"><time id="notebook-date" class="notebook-date"></time><button id="next-date" class="outline notebook-next" aria-label="Next question">Next →</button></span></div><img class="notebook-pencil" src="assets/supplies/pencil.svg" alt="" aria-hidden="true"></div>
+     <div class="notebook-writing">
+      <div class="pad-label"><span>READ THE BEGINNING</span><span id="placed-count" aria-live="polite"></span></div>
+      <p id="context" class="context cloze-context" data-area="sentence" aria-label="Sentence with answer blanks"></p>
+
+      <div class="cloze-bank">
+       <div class="tray-heading"><span id="choice-label"></span><button id="clear-blank" class="text-button">↩ Clear this blank</button></div>
+       <div class="cloze-choice-row"><div id="choices" class="tile-area tray" data-area="choices" aria-label="Answer choices"></div><button id="next-choices" class="primary choices-next" aria-label="Next question">Next →</button></div>
+      </div>
+      <div class="joined-word-panel"><span class="joined-word-label">MY FINISHED SENTENCE</span><div id="joined-words" class="joined-words" role="list" aria-label="Your finished sentence"></div></div>
+     </div>
+    </section>
+    <p class="instructions">Read the beginning. Push the ending that makes sense.</p>
+    <div class="answer-controls"><button id="check" class="primary">Check my answer ✓</button><button id="reset-question" class="outline">↻ Reset question</button><button id="hint" class="outline">Show me a hint</button></div>
+    <p id="feedback" class="feedback" role="status" aria-live="polite"></p><div id="hint-display" class="hint-display" hidden></div>
+   </div>
+  </section>
+  <section id="journey-finish" hidden><h2>You reached the end!</h2><p id="finish-summary"></p><div class="finish-actions"><button id="review-adventure" class="primary">Review the questions</button><button id="finish-home" class="outline">Choose a school supply</button></div></section>
+  <footer class="activity-footer"><div class="navigation"><button id="previous" class="outline">← Back</button><button id="next" class="primary">Next →</button><button id="shuffle-activities" class="text-button">Shuffle activities</button></div></footer>
+  <section id="balloon-flight" class="balloon-flight" aria-label="Kids in a balloon progress"><div class="balloon-travel" aria-hidden="true"><div id="balloon-rig" class="balloon-rig"><div class="balloon-sway"><img id="balloon-image" class="balloon-image" src="assets/balloon.png" alt=""><span id="balloon-count" class="balloon-count">0</span></div></div></div><p id="flight-status" class="flight-status" role="status" aria-live="polite"></p></section>
+ </main>
+ 
+</div></div><div id="drag-ghost" class="drag-ghost" hidden></div></body>
+</html>
